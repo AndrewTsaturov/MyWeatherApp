@@ -1,7 +1,7 @@
 package com.andrewtsaturov.weatherapp.domain.repository
 
-import com.andrewtsaturov.weatherapp.domain.entity.geo.Geo
-import com.andrewtsaturov.weatherapp.domain.entity.time_items.WeatherDay
+import com.andrewtsaturov.weatherapp.data.entity.geo.Geo
+import com.andrewtsaturov.weatherapp.data.entity.time_items.WeatherDay
 import io.reactivex.Observable
 import io.reactivex.Single
 

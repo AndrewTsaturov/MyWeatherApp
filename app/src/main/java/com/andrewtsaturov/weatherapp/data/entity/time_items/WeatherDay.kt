@@ -1,4 +1,4 @@
-package com.andrewtsaturov.weatherapp.domain.entity.time_items
+package com.andrewtsaturov.weatherapp.data.entity.time_items
 
 data class WeatherDay(
     val date: Long,

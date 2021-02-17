@@ -1,4 +1,4 @@
-package com.andrewtsaturov.weatherapp.domain.entity.weather
+package com.andrewtsaturov.weatherapp.data.entity.weather
 
 enum class Precipitation {
     CLEAR, FEW_CLOUDS, SCATTERED_CLOUDS, BROKEN_CLOUDS,

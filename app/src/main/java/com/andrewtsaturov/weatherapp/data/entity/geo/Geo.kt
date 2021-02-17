@@ -1,4 +1,4 @@
-package com.andrewtsaturov.weatherapp.domain.entity.geo
+package com.andrewtsaturov.weatherapp.data.entity.geo
 
 import androidx.room.Entity
 

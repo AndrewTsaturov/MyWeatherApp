@@ -1,4 +1,4 @@
-package com.andrewtsaturov.weatherapp.domain.entity.weather
+package com.andrewtsaturov.weatherapp.data.entity.weather
 
 data class Weather(
     val temperature: Double,
