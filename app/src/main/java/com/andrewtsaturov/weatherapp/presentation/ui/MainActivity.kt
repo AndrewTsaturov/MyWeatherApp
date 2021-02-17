@@ -1,4 +1,4 @@
-package com.andrewtsaturov.weatherapp.presentation
+package com.andrewtsaturov.weatherapp.presentation.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
