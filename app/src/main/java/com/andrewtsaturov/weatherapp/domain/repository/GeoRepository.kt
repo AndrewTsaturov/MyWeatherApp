@@ -13,5 +13,6 @@ interface GeoRepository {
     fun updateDefaultGeo(geo: Geo): Completable
     fun updateGeo(geo: Geo): Completable
 
+    fun observeDefaultGeo(): Observable<Geo>
     fun observeSavedGeos(): Observable<List<Geo>>
 }

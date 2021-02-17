@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/app_navigation"
     app:startDestination="@id/navigation_home">
 
-    <fragment android:id="navigation_home"
-        android:name="">
+    <fragment android:id="@+id/navigation_home"
+        android:name="com.andrewtsaturov.weatherapp.presentation.ui.HomeFragment">
+
+    </fragment>
+
+    <fragment android:id="@+id/navigation_day_hours"
+        android:name="com.andrewtsaturov.weatherapp.presentation.ui.DayWeatherHoursFragment">
+
+    </fragment>
+
+    <fragment android:id="@+id/navigation_location_search"
+        android:name="com.andrewtsaturov.weatherapp.presentation.ui.LocationsSearchFragment">
+
+    </fragment>
+
+
+    <fragment android:id="@+id/navigation_my_locations"
+        android:name="com.andrewtsaturov.weatherapp.presentation.ui.MyLocationsFragment">
+
+    </fragment>
+
+    <fragment android:id="@+id/navigation_map"
+        android:name="com.andrewtsaturov.weatherapp.presentation.ui.MapFragment">
 
     </fragment>
 
