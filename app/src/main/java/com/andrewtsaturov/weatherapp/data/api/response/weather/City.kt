@@ -1,4 +1,4 @@
-package com.andrewtsaturov.weatherapp.data.response.weather
+package com.andrewtsaturov.weatherapp.data.api.response.weather
 
 
 data class City(

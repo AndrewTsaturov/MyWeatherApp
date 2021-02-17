@@ -1,4 +1,4 @@
-package com.andrewtsaturov.weatherapp.data.response.geo
+package com.andrewtsaturov.weatherapp.data.api.response.geo
 
 class LocalNameResponse(
     val en: String,
